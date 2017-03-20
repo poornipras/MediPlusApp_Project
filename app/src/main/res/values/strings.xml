@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Medi Plus</string>
+    <string name="title_splash_screen">Medi Plus</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-1324880523088106~1812838079</string>
+    //main page
+    <string name="title_Main_page">Drug Details</string>
+    <string name="adddrugdetail_mainpage">Add drug detail</string>
+    <string name="alarmdetail_mainpage">Alarm</string>
+    <string name="searchdrug_mainpage">Search for medicines</string>
+    <string name="shop_for_medicine">Shop for Medicine</string>
+    <string name="Sort">Sort</string>
+    <string name="sort_by_generic">Generic</string>
+    <string name="sort_by_specific">Specific</string>
+    <string name="Before_food_medicine">Before Food Medicine</string>
+    <string name="After_food_medicine">After Food Medicine</string>
+
+    //Add Drug details page
+    <string name="Add_drugdetails">Add Drug Details</string>
+    <string name="drug_name">Drug Name</string>
+    <string name="drug_description">Description</string>
+    <string name="drug_price">Price</string>
+    <string name="save_drug_add_page_menu">Save</string>
+    <string name="form_of_medication">Form of Medication</string>
+    <string-array name="spinner_form_of_medication">
+        <item>Tablet</item>
+        <item>Capsule</item>
+        <item>Syrup</item>
+        <item>Drops</item>
+        <item>Spray</item>
+        <item>Injection</item>
+    </string-array>
+
+    <string name="Instructions">Instructions</string>
+    <string-array name="spinner_instructions">
+        <item>Take before food</item>
+        <item>Take after food</item>
+        <item>During meals</item>
+        <item>Anytime</item>
+    </string-array>
+
+    //Drug data
+    <string name="Title_drugdata">Drug Data</string>
+    <string name="menu_goto_homepage">Home</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_edit">Edit</string>
+    <string name="type_of_drug">Category</string>
+    <string name="radio_generic">Generic</string>
+    <string name="radio_specific">Specific</string>
+
+
+    //Alarm Activity
+    <string name="menu_alarm_list">Alarm List</string>
+    <string name="Alarm_Title">Add Alarm</string>
+    <string name="Alarm_name">Enter the Alarm name</string>
+    <string name="Add_Medicine_name">Add</string>
+    <string name="Everyday">Everyday</string>
+    <string name="One_time_alarm">One time</string>
+    <string name="set_start_date">Set Start date</string>
+    <string name="End_Date">End Date</string>
+    <string name="Radio_date_always">Everyday</string>
+    <string name="Radio_date_select">Select date</string>
+    <string name="set_date">Set Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="cancel_alarm">Cancel</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Cancel</string>
+
+    //Alarm Information Activity
+    <string name="Alarm_info_title">Alarm Information</string>
+    <string name="subtitle_alarmname">Alarm name</string>
+    <string name="alarm_message">Alarm Message:  </string>
+    <string name="subtitle_date">Date</string>
+    <string name="subtitle_time">Time</string>
+
+    //Search Dialog
+    <string name="search_name">Enter the name of the Drug</string>
+
+    //Edit Drug Data
+    <string name="Title_Edit_data">Edit Drug Data</string>
+    <string name="btn_save">Save</string>
+
+    //shopping for medicine
+    <string name="title_shop_medicine">Shop For Medicines</string>
+    <string name="Link_name">Enter the url here</string>
+    <string-array name="med_url">
+        <item>www.netmeds.com</item>
+        <item>www.1mg.com</item>
+        <item>www.medplusmart.com</item>
+        <item>www.medimart.com</item>
+        <item>http://www.pharmeasy.in/</item>
+        <item>www.buydrug.in</item>
+    </string-array>
+    <string name="Add_button">Add</string>
+
+    <string name="delete_all">Delete</string>
+
+    <string name="search_shop_text">Search for medicine details here</string>
+    <string name="search_google">Search</string>
+
+    //ads
+    <string name="banner_home_footer">ca-app-pub-3940256099942544/6300978111</string>
+
+    //pharmacy activity
+    <string name="pharmacy_title">Pharmacy details</string>
+    <string name="Address_textview">Address :</string>
+    <string name="Pharmacy_name">Enter the Pharmacy Name here</string>
+    <string name="Pharmacy_number">Enter the Pharmacy Phone number here</string>
+    <string name="Pharmacy_address">Enter the Pharmacy Address here</string>
+
+    //Login
+    <string name="title_login">Login</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="Login_btn">Login</string>
+    <string name="txt_newuser">New User?Click here to register</string>
+    <string name="txt_forgot_password">Forgot Password</string>
+
+    //Register dialog
+    <string name="enter_username">Enter username here</string>
+    <string name="enter_pass">Enter password here</string>
+    <string name="enter_code">Enter your unique code here</string>
+    <string name="btn_reg">Register</string>
+
+    //Forgot password
+    <string name="heading_forgot_pass">Forgot Password</string>
+    <string name="btn_submit">Submit</string>
+
+</resources>

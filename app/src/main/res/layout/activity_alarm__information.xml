@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pooja.mediplusapp.Activity.Alarm_Information">
+
+    <include
+        layout="@layout/toolbar_lay_out"
+        android:id="@+id/toolbar_alarm_information"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Alarm_info_title"
+        android:textSize="@dimen/title_size"
+        android:gravity="center_horizontal"
+        android:textColor="@color/title"
+        android:background="@color/title_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/sub_title_alarm_info"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/subtitle_alarmname"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/sub_title_alarm_info"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/subtitle_date"/>
+        <TextView
+            android:layout_width="0dp"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textSize="@dimen/sub_title_alarm_info"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/subtitle_time"/>
+    </LinearLayout>
+<android.support.v7.widget.RecyclerView
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/recycler_info_alarm">
+</android.support.v7.widget.RecyclerView>
+</LinearLayout>

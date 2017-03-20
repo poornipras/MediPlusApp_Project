@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/menu_goto_homepage"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name_home"
+        android:id="@+id/gotomainpage"/>
+    <item android:title="Add Alarm"
+        android:icon="@drawable/ic_action_name_new"
+        app:showAsAction="always"
+        android:id="@+id/menu_add_alarm"/>
+    <item android:title="Shopping"
+        android:icon="@drawable/ic_action_name_cart"
+        android:id="@+id/menu_shopping_alarm"
+        app:showAsAction="always"/>
+</menu>

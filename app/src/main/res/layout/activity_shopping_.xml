@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pooja.mediplusapp.Activity.Shopping_Activity">
+
+<include
+    layout="@layout/toolbar_lay_out"
+    android:id="@+id/toolbar_shopping"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_shop_medicine"
+        android:textColor="@color/title"
+        android:background="@color/title_background"
+        android:textSize="@dimen/title_size"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_shop_text"
+        android:textSize="@dimen/sub_title_alarm_info"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittext_shop_searchdata"
+            android:background="@drawable/border_style"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/search_btn_google"
+            android:text="@string/search_google"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/recycler_view_shopping">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

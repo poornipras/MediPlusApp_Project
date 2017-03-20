@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="GoHome"
+    android:id="@+id/menu_pharma_gohome"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_action_name_home"/>
+    <item android:title="Shopping"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name_cart"
+        android:id="@+id/menu_pharma_shopping"/>
+    <item android:title="delete all"
+        android:id="@+id/delete_all"
+        android:icon="@drawable/ic_action_name_delete"
+        app:showAsAction="always"
+        />
+</menu>

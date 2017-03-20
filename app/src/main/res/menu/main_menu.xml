@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:title="@string/alarmdetail_mainpage"
+    android:id="@+id/alarm_mainpage"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_action_name_alarm"/>
+    <item
+        android:title="@string/searchdrug_mainpage"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name_search"
+        android:id="@+id/search_for_medicines"/>
+
+    <item android:title="@string/shop_for_medicine"
+        android:id="@+id/menu_shop"
+        android:icon="@drawable/ic_action_name_cart"
+        app:showAsAction="always"/>
+    <item android:title="Pharmacy Details"
+        app:showAsAction="never"
+        android:id="@+id/menu_pharmacy"/>
+    <item android:title="Logout"
+        app:showAsAction="never"
+        android:id="@+id/logout"/>
+</menu>

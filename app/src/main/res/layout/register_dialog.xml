@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/register_username"
+    android:hint="@string/enter_username"
+    />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_password"
+        android:hint="@string/enter_pass"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_code"
+        android:hint="@string/enter_code"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_reg" />
+
+        <Button
+            android:id="@+id/button_cancel_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="77dp"
+            android:layout_marginStart="77dp"
+            android:layout_toEndOf="@+id/register_btn"
+            android:layout_toRightOf="@+id/register_btn"
+            android:text="@string/btn_cancel" />
+
+    </RelativeLayout>
+
+</LinearLayout>
